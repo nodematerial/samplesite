@@ -3,12 +3,11 @@ title= "はじめに"
 subtitle= ""
 date= ""
 draft = false
-weight = -1
+weight = -999
 +++
 
 ## このサイトの目的
-
-## このたわごとをたべる！
+Golang の基本的な文法と分散システムについて述べる
 
 ### Coding Block
 

@@ -1,29 +1,19 @@
 baseURL = "https://nodematerial.github.io/samplesite/"
 disablePathToLower = true
 languageCode = "en-us"
-title = "docter"
+title = "初めてのGoプログラミング"
 theme = "docter"
 publishDir = "docs"
 
 [params]
-  # the name of your project and a link back to the home page
-  home = "docter"
-  # A small snippet of text above the sidebar:
-  # subtitle = ""
+  home = "初めてのGoプログラミング"
+  subtitle = "こんにちは"
 
-  author = "org name"
-  author_url= "https://github.com/edavidaja"
-
-  # Point readers to your repo and invite them to edit pages
-  repo_host = "Gitlab"
-  repo = "https://gitlab.com/edavidaja/docter"
-
-  # Add a reference to a logo, which will appear in the top right
-  # logourl = ""
-  # logoalt = ""
+  author = "Kota Noda"
+  author_url= "https://github.com/nodematerial"
 
   # Mention your hosting provider
-  hosted_on = "hosting provider"
+  hosted_on = "Github"
   hosted_on_url= "#"
 
   # main sections
@@ -32,3 +22,6 @@ publishDir = "docs"
 
   # brand color
   brand_color = "#5cc507"
+
+[markup.goldmark.renderer]
+  unsafe = true
